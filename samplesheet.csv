@@ -1,3 +1,2 @@
 sample_id,read1,read2
-ibk62,/work/samodha/sachin/ShotgunM/Final_Analysis/data/combined_data/day1_25healthy_25infected/ibk62_1.fq.gz,/work/samodha/sachin/ShotgunM/Final_Analysis/data/combined_data/day1_25healthy_25infected/ibk62_2.fq.gz
-ibk63,/work/samodha/sachin/ShotgunM/Final_Analysis/data/combined_data/day1_25healthy_25infected/ibk63_1.fq.gz,/work/samodha/sachin/ShotgunM/Final_Analysis/data/combined_data/day1_25healthy_25infected/ibk63_2.fq.gz
+ibk63,/work/samodha/sachin/ShotgunM/Final_Analysis/data/combined_data/day1_25healthy_25infected/ibk_63_1.fq.gz,/work/samodha/sachin/ShotgunM/Final_Analysis/data/combined_data/day1_25healthy_25infected/ibk_63_2.fq.gz

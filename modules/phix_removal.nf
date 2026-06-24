@@ -1,8 +1,11 @@
 process PHIX_REMOVAL {
 
+    module 'bbmap/39.06'
+
     tag "$sample_id"
 
-    publishDir "${params.outdir}/01_PhiX_contamination", mode: 'copy'
+    publishDir "${params.outdir}/01_PhiX_contamination/clean_reads", pattern: "*_phiX_clean.fq.gz", mode: 'copy'
+    publishDir "${params.outdir}/01_PhiX_contamination/stats", pattern: "*_phiX_stats.txt", mode: 'copy'
 
     input:
     tuple val(sample_id), path(read1), path(read2)
